@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@font-face {
+    font-family: 'ArticaPro';
+    src: url('../font/ArticaPro.eot');
+    src: local('../font/ArticaPro'), local('../font/ArticaPro'),
+    url('../font/ArticaPro.eot?#iefix') format('embedded-opentype'),
+    url('../font/ArticaPro.woff2') format('woff2'),
+    url('../font/ArticaPro.woff') format('woff'),
+    url('../font/ArticaPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArticaPro';
+    src: url('../font/ArticaPro-Medium.eot');
+    src: local('../font/ArticaPro-Medium'), local('../font/ArticaPro-Medium'),
+    url('../font/ArticaPro-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../font/ArticaPro-Medium.woff2') format('woff2'),
+    url('../font/ArticaPro-Medium.woff') format('woff'),
+    url('../font/ArticaPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArticaPro';
+    src: url('../font/ArticaPro-Black.eot');
+    src: local('../font/ArticaPro-Black'), local('../font/ArticaPro-Black'),
+    url('../font/ArticaPro-Black.eot?#iefix') format('embedded-opentype'),
+    url('../font/ArticaPro-Black.woff2') format('woff2'),
+    url('../font/ArticaPro-Black.woff') format('woff'),
+    url('../font/ArticaPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArticaPro';
+    src: url('../font/ArticaPro-Light.eot');
+    src: local('../font/ArticaPro-Light'), local('../font/ArticaPro-Light'),
+    url('../font/ArticaPro-Light.eot?#iefix') format('embedded-opentype'),
+    url('../font/ArticaPro-Light.woff2') format('woff2'),
+    url('../font/ArticaPro-Light.woff') format('woff'),
+    url('../font/ArticaPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArticaPro';
+    src: url('../font/ArticaPro-Bold.eot');
+    src: local('ArticaPro-Bold'), local('../font/ArticaPro-Bold'),
+    url('../font/ArticaPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../font/ArticaPro-Bold.woff2') format('woff2'),
+    url('../font/ArticaPro-Bold.woff') format('woff'),
+    url('../font/ArticaPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Mont';
+    src: url('../font/Mont-Regular.eot');
+    src: local('../font/Mont Regular'), local('../font/Mont-Regular'),
+    url('../font/Mont-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../font/Mont-Regular.woff2') format('woff2'),
+    url('../font/Mont-Regular.woff') format('woff'),
+    url('../font/Mont-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
