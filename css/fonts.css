@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 @font-face {
     font-family: 'ArticaPro';
     src: url('../font/ArticaPro.eot');
@@ -12,7 +13,7 @@
 }
 
 @font-face {
-    font-family: 'ArticaPro';
+    font-family: 'ArticaPro-Medium';
     src: url('../font/ArticaPro-Medium.eot');
     src: local('../font/ArticaPro-Medium'), local('../font/ArticaPro-Medium'),
     url('../font/ArticaPro-Medium.eot?#iefix') format('embedded-opentype'),
@@ -24,7 +25,7 @@
 }
 
 @font-face {
-    font-family: 'ArticaPro';
+    font-family: 'ArticaPro-Black';
     src: url('../font/ArticaPro-Black.eot');
     src: local('../font/ArticaPro-Black'), local('../font/ArticaPro-Black'),
     url('../font/ArticaPro-Black.eot?#iefix') format('embedded-opentype'),
@@ -36,7 +37,7 @@
 }
 
 @font-face {
-    font-family: 'ArticaPro';
+    font-family: 'ArticaPro-Light';
     src: url('../font/ArticaPro-Light.eot');
     src: local('../font/ArticaPro-Light'), local('../font/ArticaPro-Light'),
     url('../font/ArticaPro-Light.eot?#iefix') format('embedded-opentype'),
@@ -48,7 +49,7 @@
 }
 
 @font-face {
-    font-family: 'ArticaPro';
+    font-family: 'ArticaPro-Bold';
     src: url('../font/ArticaPro-Bold.eot');
     src: local('ArticaPro-Bold'), local('../font/ArticaPro-Bold'),
     url('../font/ArticaPro-Bold.eot?#iefix') format('embedded-opentype'),
