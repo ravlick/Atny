@@ -11,63 +11,59 @@
     <link rel="stylesheet" href="css/fonts.css">
 </head>
 <body>
-<header>
-    <div class="header__top d-flex justify-content-around align-items-center">
-        <div class="header__top-logo">
-            <img src="./image/logo.svg" alt="logo">
-        </div>
-        <div class="header__mobile-block">
-            <a href="tel:+380990500796">+380990500796 Анастасія
-            </a>
-        </div>
-        <div class="header__burger">
-            <span></span><span></span><span></span>
-        </div>
-
-        <div class="header__top-navbar">
-            <ul class="menu d-flex">
-                <li><a href="#">Головна</a></li>
-                <li><a href="#">Курси</a></li>
-                <li><a href="#">Викладачі</a></li>
-                <li><a href="#">Блог</a></li>
-            </ul>
+<header class="header">
+    <div class="header__inner relative">
+        <div class="container__inner d-flex justify-content-between align-items-center">
+            <div class="header__logo">
+                <img src="image/logo.svg" alt="logo">
+            </div>
+            <div class="header__block-media d-flex align-items-center">
+                <div class="header__block-media--phone">
+                    <a href="tel:+380990500796">+380990500796 Анастасія
+                    </a>
+                </div>
+                <div class="header__block-media--burger">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+            <div class="header__navbar">
+                <ul class="header__navbar-nav d-flex">
+                    <li><a href="#">Головна</a></li>
+                    <li><a href="#">Курси</a></li>
+                    <li><a href="#">Викладачі</a></li>
+                    <li><a href="#">Блог</a></li>
+                </ul>
+            </div>
         </div>
     </div>
-    <div class="header__home d-flex justify-content-center">
-        <div class="header__home-profile">
-            <img src="./image/FamilyGroup.png" alt="FamilyGroup">
+    <div class="header__content d-flex justify-content-center">
+
+        <div class="header__content-logo">
+            <img class="lg-block" src="image/FamilyGroup.png" alt="FamilyGroup">
+            <img class="sm-block" src="image/header-mobile-bg.png" alt="family">
         </div>
-        <div class="header__home-description">
-            <p>Arni Education</p>
-            <h2>Онлайн-школа</h2>
+        <div class="header__content-description">
+            <h3>ARNI EDUCATION</h3>
+            <h1>Онлайн-школа</h1>
             <p>номер 1 в Україні</p>
-            <ul class="header__home-list">
+            <ul class="header__content-description--list">
                 <li>Найкращі викладачі</li>
                 <li>Якісна освіта</li>
-                <li>Навчання онлайн з будь якої точки світу</li>
+                <li>Навчання онлайн із будь-якої точки світу</li>
             </ul>
-            <h3>Два уроки за ціної одного <br>
-                при першій оплаті</h3>
-            <button>Отримати другий <br> урок у подарунок</button>
+            <h2>Два уроки за ціної одного <br>
+                при першій оплаті</h2>
+            <button class="header__content-description--button relative">Два уроки за ціної одного <br>
+                при першій оплаті</button>
         </div>
+
     </div>
 </header>
-<section class="lesson__inner">
-    <div class="lesson__inner-formblock d-flex justify-content-center">
-        <div class="lesson__inner-description">
-            <h3>Два уроки за ціною <br>
-                одного <br>
-               <span>при першій оплаті</span> </h3>
-        </div>
-        <div class="lesson__inner-form">
-            <form action="">
-                <input type="text"> <br>
-                <input type="text"> <br>
-                <button class="submit">Запитати</button>
-            </form>
-        </div>
-    </div>
-</section>
+<div class="lesson relative">
+
+</div>
+
+
 
 
 

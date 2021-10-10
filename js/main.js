@@ -1,6 +1,6 @@
 jQuery(document).ready(function($){
-    $('.header__burger').on('click', function () {
-        $('.header__top-navbar').toggleClass('menu--active');
+    $('.header__block-media--burger').on('click', function () {
+        $('.header__navbar').toggleClass('menu--active');
 
     });
 
