@@ -511,3 +511,42 @@ img.sm-block{display:none;}
 .teacher__inner-title{
     margin-bottom: 100px;
 }
+.action{
+    background: url("../image/bg-action.png")no-repeat;
+    background-position: center center;
+    width:100%;
+    transform: skew(0, 5deg);
+    height: 400px;
+    top:400px;
+
+}
+.action__inner{
+    width:1000px;
+    margin:auto;
+    transform: skew(0, -5deg);
+}
+.action__inner-title h3{
+    font-family: 'ArticaPro-Bold';
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.action__inner-title{
+    padding:100px 0;
+}
+.action__inner-body{
+    background: #191919;
+    border: 3px solid #FFFFFF;
+    box-shadow: 6px 13px 27px rgba(0, 0, 0, 0.25);
+}
+.action__inner-body:before{
+    content: url("../image/bg-action-child.png");
+    width:994px;
+    max-width: 100%;
+    height:25px;
+    position: absolute;
+    top:-29px;
+    left:0;
+}
