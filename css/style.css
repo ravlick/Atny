@@ -438,3 +438,76 @@ img.sm-block{display:none;}
     color: #FFFFFF;
     opacity: 0.5;
 }
+
+/* teacher*/
+.teacher{
+   top:200px;
+    padding-bottom: 100px;
+}
+.teacher__inner{
+    width:1000px;
+    margin:auto;
+    max-width: 100%;
+}
+.teacher__inner-title h3{
+    font-family:'ArticaPro-Bold';
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #DCAD55;
+}
+.teacher__inner-body--photo{
+    padding:10px;
+    background: #fff;
+}
+.teacher--info{
+    padding: 30px;
+}
+.teacher--info h3{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 28px;
+    color: #101010;
+}
+.teacher--info ul{
+    list-style: none;
+    padding: 0;
+}
+.teacher--info li{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #101010;
+}
+.teacher--info li>span{
+    font-weight: 700;
+}
+.teacher__inner-body--description{
+    padding:50px;
+}
+.teacher__inner-body--description p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-left: 60px;
+}
+.teacher__inner-body--photo:before{
+    content: '';
+    background:url("../image/before.png");
+    width: 281px;
+    height: 30px;
+    position: absolute;
+    top:-30px;
+    left:0;
+}
+.teacher__inner-title{
+    margin-bottom: 100px;
+}
