@@ -154,3 +154,54 @@ img.sm-block{display:none;}
     bottom:0;
     right: 0;
 }
+.lesson__form input{
+    background: #F0F0F0;
+    border: 3px solid #C4C4C4;
+    box-sizing: border-box;
+    box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.1);
+    width:345px;
+    height:55px;
+    display: block;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    color: #8C8C8C;
+    outline: none;
+}
+.lesson__form-button{
+    background: #101010;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.1);
+    width:345px;
+    height:55px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 20px;
+    color: #FFFFFF;
+    cursor:pointer;
+}
+.lesson__inner{
+    transform: skew(0,5deg);
+}
+.lesson__description p{
+    font-family: ArticaPro-Medium;
+    font-size: 49px;
+    line-height: 113.5%;
+    color: #F0F0F0;
+    text-transform: uppercase;
+}
+.lesson__description p>span{
+    color:#000;
+}
+.lesson__description{
+    padding:20px;
+}
