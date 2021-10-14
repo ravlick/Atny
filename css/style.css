@@ -27,6 +27,7 @@ body{
 }
 .container__inner{
     width: 1170px;
+    max-width: 100%;
     margin:auto;
 }
 .relative{
@@ -516,8 +517,8 @@ img.sm-block{display:none;}
     background-position: center center;
     width:100%;
     transform: skew(0, 5deg);
-    height: 400px;
     top:400px;
+    min-height: 700px;
 
 }
 .action__inner{
@@ -549,4 +550,36 @@ img.sm-block{display:none;}
     position: absolute;
     top:-29px;
     left:0;
+}
+.action--image img{
+    position: absolute;
+    top: -97px;
+    left: 0;
+    max-width: 300px;
+
+
+}
+.action--description{
+    padding: 50px;
+    width: 50%;
+}
+.action--description h3{
+    font-family: ArticaPro-Black;
+    font-size: 30px;
+    line-height: 97.1%;
+    text-align: right;
+    color: #EAEAEA;
+}
+.action--description p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: right;
+    color: #EAEAEA;
+}
+.language__inner{
+    max-width: 200px;
+    margin:auto;
 }
