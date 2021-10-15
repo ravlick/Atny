@@ -10,4 +10,15 @@ jQuery(document).ready(function($){
     // $('.menu__item').on('click', function () {
     //     $('.menu').removeClass('menu--active');
     // });
+
+        $('.review__slider').bxSlider({
+            minSlides:1,
+            maxSlides:5,
+            moveSlides:5,
+            slideWidth:326,
+            slideMargin:50,
+            pager:false
+
+        });
+
 });

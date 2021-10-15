@@ -1,5 +1,7 @@
 body{
-    background: #101010;
+    background: url("../image/bg-body.png") repeat #000000;
+    background-repeat: repeat;
+    background-position: center center;
 }
 .pt-50{
     padding-top: 50px;
@@ -492,7 +494,7 @@ img.sm-block{display:none;}
     padding:50px;
 }
 .teacher__inner-body--description p{
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -517,7 +519,7 @@ img.sm-block{display:none;}
     background-position: center center;
     width:100%;
     transform: skew(0, 5deg);
-    top:400px;
+    margin-top:400px;
     min-height: 700px;
 
 }
@@ -564,14 +566,14 @@ img.sm-block{display:none;}
     width: 50%;
 }
 .action--description h3{
-    font-family: ArticaPro-Black;
+    font-family: 'ArticaPro-Black';
     font-size: 30px;
     line-height: 97.1%;
     text-align: right;
     color: #EAEAEA;
 }
 .action--description p{
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -579,7 +581,323 @@ img.sm-block{display:none;}
     text-align: right;
     color: #EAEAEA;
 }
-.language__inner{
-    max-width: 200px;
+
+.language__inner-block--title h3{
+    font-family: 'ArticaPro-Bold';
+    font-size: 45px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #DCAD55;
+}
+
+.language__inner-block{
+    max-width: 700px;
+    margin:200px auto;
+}
+.language_block--group{
+    border: 3px solid #DCAD55;
+    box-sizing: border-box;
+    width: 322px;
+    height: 80.81px;
+}
+.language_block--single{
+    border: 3px solid #DCAD55;
+    box-sizing: border-box;
+    width: 322px;
+    height: 80.81px;
+}
+.language__inner-block:before{
+    content: url("../image/book-lang.png");
+    width:215px;
+    height:164px;
+    position: absolute;
+    top:-50px;
+    left:-100px;
+}
+.language__inner-block--body{
+    margin-top: 100px;
+}
+.block-small{
+    background: #DCAD55;
+    position: absolute;
+    left: -1px;
+    bottom: -1px;
+    height:20px;
+    width:35px;
+}
+.block-small span{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #101010;
+}
+.block-small img{
+    width:12px;
+    height: 10px;
+}
+.block-group-text .language-price p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+
+
+}
+.block-group-text{height:100%;}
+.block-group-text .language-group{
+    width:80%;
+}
+.block-group-text .language-price{
+    width:20%;
+    background: #DCAD55;
+}
+.block-group-text .language-group p{
+    font-family: 'ArticaPro-Bold';
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.review__slide-title p{
+    font-family: 'ArticaPro-Bold';
+    font-size: 22px;
+    line-height: 26px;
+    color: #101010;
+}
+.review__slide-title{
+    background: #DCAD55;
+}
+.review__slide{
+    border: 3px solid #DCAD55;
+    box-sizing: border-box;
+
+}
+.review__slide-body p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.review .bx-wrapper{
+    background: transparent;
+    box-shadow: 0 0 5px transparent;
+    border: 5px solid transparent;
+}
+.review__slide-body{
+    padding:20px;
+}
+.review__slide-title p{
+    text-align: center;
+
+}
+.review .bx-wrapper .bx-controls-direction a.bx-prev{
+    top:100%;
+    margin-top: 10px;
+    left:45%;
+}
+.review .bx-wrapper .bx-controls-direction a.bx-next{
+    top:100%;
+    margin-top: 10px;
+    right:45%;
+}
+.review{
+    padding-bottom: 100px;
+}
+.review-button-bottom button{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #101010;
+    width: 360px;
+    height: 45px;
+    margin-top: 50px;
+    cursor: pointer;
+    background: #DCAD55;
+    box-shadow: 0px 6px 22px rgba(255, 255, 255, 0.36);
+}
+.review__inner h3{
+    font-family: 'ArticaPro-Bold';
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #DCAD55;
+    margin-bottom: 50px;
+}
+.question{
+    padding-bottom: 100px;
+}
+.question__inner h3{
+    font-family: 'ArticaPro-Medium';
+    font-size: 37px;
+    line-height: 43px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #DCAD55;
+    margin-bottom: 50px;
+}
+.question__inner{
+    width: 950px;
+    max-width: 100%;
     margin:auto;
+}
+.question__inner p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+.question__inner-form .form-first input{
+    width: 345px;
+    height: 55px;
+    background: #F0F0F0;
+    box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.05);
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #8C8C8C;
+}
+.question__inner-form .form-question-button{
+    width: 345px;
+    height: 45px;
+    background: #DCAD55;
+    box-shadow: 0px 6px 22px rgba(255, 255, 255, 0.36);
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #101010;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.question__inner-form .form-second p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #E1E1E1;
+}
+.form-question-button-three{
+    width: 345px;
+    height: 54px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #784F99;
+    box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.1);
+    cursor:pointer;
+}
+.form-three{
+    align-items: flex-end;
+}
+.form-second{
+    align-items: center;
+}
+.question-name:before{
+    content:url("../image/man.png");
+    width:15px;
+    height:16px;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1;
+
+}
+
+footer{
+    margin-top:100px;
+    width:100%;
+    padding:100px 0;
+    background: url("../image/bg-body.png") repeat #191919;
+}
+
+footer:before{
+    content:'';
+    position:absolute;
+    top:-50px;
+    width:0;
+    height:0;
+    border-bottom: 50px solid #191919;
+    border-right: 99vw solid transparent;
+}
+
+.footer__inner h3{
+    font-family: 'ArticaPro-Medium';
+    font-size: 37px;
+    line-height: 43px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #DCAD55;
+    margin-bottom: 50px;
+}
+.footer__inner-button{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #101010;
+    width: 268px;
+    height: 45px;
+    cursor: pointer;
+    background: #DCAD55;
+    box-shadow: 0px 6px 22px rgba(255, 255, 255, 0.36);
+}
+.footer__inner-body{
+    width:780px;
+    max-width: 100%;
+    margin:auto;
+}
+.social{
+    margin-top: 50px;
+}
+.social img{
+   margin:10px;
+}
+.footer__inner-body--first p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 116.19%;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+.footer__inner-body--second a{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 116.19%;
+    color:#fff;
 }
